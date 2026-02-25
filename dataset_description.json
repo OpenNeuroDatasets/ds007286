@@ -1,9 +1,8 @@
 {
-  "Name": "Your Dataset Name",
+  "Name": "YaleNeuroConnect",
   "BIDSVersion": "1.8.0",
-  "DatasetType": "raw",
   "Authors": [
     "Anja",
-    "Eg"
+    "eg"
   ]
 }
