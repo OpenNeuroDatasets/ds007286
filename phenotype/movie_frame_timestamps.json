@@ -1,0 +1,1 @@
+{"movie_name":{"Description":"Movie clip filename"},"time":{"Description":"Timestamp (in seconds) for the presented frame relative to the start of the current clip","Units":"seconds","SpecialValues":{"-1":"Transition frame between clips"},"Notes":"Time resets to 0 at the beginning of each clip."}}
