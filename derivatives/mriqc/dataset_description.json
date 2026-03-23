@@ -1,0 +1,6 @@
+{
+  "Name": "MRIQC derivatives dataset",
+  "BIDSVersion": "1.8.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [{"Name": "MRIQC"}]
+}
