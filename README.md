@@ -1,11 +1,14 @@
 YaleNeuroConnect is a deeply phenotyped human functional Magnetic Resonance Imaging (fMRI) dataset. There are 410 diagnostically and demographically participants. 
 
-The dataset includes raw-fMRI neuroimaging data of six in-scanner task runs (card guessing, reading the mind in the eyes, gradual onset continuous performance - gradCPT, movie watching, nBack, and stop-signal) and two resting runs. In addition, we include processed functional connectivity matrices and mean ROI time courses, processed with the Shen268 and Shen368 functional maps. 
-T1-weighted, T2-weighted, and FLASH structural MRI images for each participant are provided. 
+The dataset includes raw-fMRI neuroimaging data of six in-scanner task runs (card guessing, reading the mind in the eyes, gradual onset continuous performance - gradCPT, movie watching, nBack, and stop-signal) and two resting runs. T1-weighted, T2-weighted, and FLASH structural MRI images for each participant are provided. The raw neuorimaging data is stored under each participant's folder. 
 
-A wide range of cognitive, psychiatric, and behavioral scores were collected. Scores were collected using the following test banks: ATQ, BNT, BRIEF, BSI, DKEFS, IRI, MINI, PANAS, PSQI, PSS, WAIS, and WRAML. 
+In addition, we include processed functional connectivity matrices and mean ROI time courses, processed with the Shen268 and Shen368 functional maps. The functional connectivity matrices are stored under derivatives -> MC_Shen268 and derivatives -> MC_Shen368) The mean ROI time courses are stored under derivatives -> roimean_Shen268 and derivatives->roimean_Shen238.
 
-The dataset also includes quality metrics for each participant's T1W, T2W, and fMRI images. 
+A wide range of cognitive, psychiatric, and behavioral scores were collected. Scores were collected using the following test banks: ATQ, BNT, BRIEF, BSI, DKEFS, IRI, MINI, PANAS, PSQI, PSS, WAIS, and WRAML. These scores are listed under the phenotype folder, and each test bank contains multiple scores (tsv file), with a corresponding json file that describes the variables in the tsv file. 
+
+The dataset also includes quality metrics for each participant's T1W, T2W, and fMRI images. The quality metrics are stored under derivatives->mriqc. 
+
+The code used to display the stimuli during the task fMRI runs is included under derivatives -> task_code.zip. The timestamps for the movie time frames are included under derivatives -> movie_frame_timestamps
 
 Participants: The dataset was collected at Yale School of Medicine, Magnetic Resonance Research Center, New Haven, Connecticut, USA between February 2018 and May 2025.  
 
