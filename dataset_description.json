@@ -34,5 +34,8 @@
     "OpenNeuroIncludedOutputs": [
         "Raw NIFTI files for T1w, T2w, 2xrs-fMRI, and 6xtask-fMRI"
     ],
-    "DatasetDOI": "[add]"
+    "DatasetDOI": "[add]",
+    "EthicsApprovals": [
+        "Yale Institutional Review Board (HIC #2000020891) "
+    ]
 }
