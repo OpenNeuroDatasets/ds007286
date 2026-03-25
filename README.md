@@ -1,4 +1,4 @@
-YaleNeuroConnect is a deeply phenotyped human functional Magnetic Resonance Imaging (fMRI) dataset. There are 410 diagnostically and demographically participants. 
+YaleNeuroConnect is a deeply phenotyped human functional Magnetic Resonance Imaging (fMRI) dataset. There are 410 diagnostically and demographically diverse participants. 
 
 The dataset includes raw-fMRI neuroimaging data of six in-scanner task runs (card guessing, reading the mind in the eyes, gradual onset continuous performance - gradCPT, movie watching, nBack, and stop-signal) and two resting runs. T1-weighted, T2-weighted, and FLASH structural MRI images for each participant are provided. The raw neuorimaging data is stored under each participant's folder. 
 
