@@ -6,6 +6,8 @@ In addition, we include processed functional connectivity matrices and mean ROI 
 
 A wide range of cognitive, psychiatric, and behavioral scores were collected. Scores were collected using the following test banks: ATQ, BNT, BRIEF, BSI, DKEFS, IRI, MINI, PANAS, PSQI, PSS, WAIS, and WRAML. These scores are listed under the phenotype folder, and each test bank contains multiple scores (tsv file), with a corresponding json file that describes the variables in the tsv file. 
 
+The diagnosis of each participant is listed under phenotype-> diagnosis_binary_table.tsv. 
+
 The dataset also includes quality metrics derived using MRIQC for each participant's T1W, T2W, and fMRI images. These metrics are stored under derivatives->mriqc. 
 
 The code used to display the stimuli during the task fMRI runs is included under derivatives -> task_code.zip. The timestamps for the movie time frames are included under derivatives -> movie_frame_timestamps.
