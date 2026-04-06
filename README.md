@@ -4,6 +4,8 @@ The dataset includes raw fMRI data of six in-scanner task runs (card guessing, r
 
 In addition, we include processed functional connectivity matrices and mean ROI time courses, processed with the Shen268 and Shen368 functional maps. The functional connectivity matrices are stored under derivatives -> MC_Shen268 and derivatives -> MC_Shen368. The mean ROI time courses are stored under derivatives -> roimean_Shen268 and derivatives->roimean_Shen368.
 
+Three subjects are missing one functional run each (sub-pa0950, sub-pb8448, and sub-pb9916) due to incomplete scan sessions.
+
 A wide range of cognitive, psychiatric, and behavioral scores were collected. Scores were collected using the following test banks: ATQ, BNT, BRIEF, BSI, DKEFS, IRI, MINI, PANAS, PSQI, PSS, WAIS, and WRAML. These scores are listed under the phenotype folder, and each test bank contains multiple scores (tsv file), with a corresponding json file that describes the variables in the tsv file. 
 
 The diagnosis of each participant is listed under phenotype-> diagnosis_binary_table.tsv. 
