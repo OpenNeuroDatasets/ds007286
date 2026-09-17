@@ -1,6 +1,6 @@
 YaleNeuroConnect is a deeply phenotyped human functional Magnetic Resonance Imaging (fMRI) dataset. The dataset includes 410 diagnostically and demographically diverse participants. 
 
-The dataset includes raw fMRI data of six in-scanner task runs (card guessing, reading the mind in the eyes, gradual onset continuous performance - gradCPT, movie watching, nBack, and stop-signal) and two resting runs. T1-weighted, T2-weighted, and FLASH structural MRI images for each participant are provided. The raw neuroimaging data is stored under each participant's folder. 
+The dataset includes raw fMRI data of six in-scanner task runs (card guessing, reading the mind in the eyes, gradual onset continuous performance - gradCPT, movie watching, nBack, and stop-signal) and two resting runs. T1-weighted, T2-weighted, and FLASH structural MRI images for each participant are provided. The raw neuroimaging data is stored under each participant's folder. Task event files are included in each participant's folder. 
 
 In addition, we include processed functional connectivity matrices and mean ROI time courses, processed with the Shen268 and Shen368 functional maps. The functional connectivity matrices are stored under derivatives -> MC_Shen268 and derivatives -> MC_Shen368. The mean ROI time courses are stored under derivatives -> roimean_Shen268 and derivatives->roimean_Shen368.
 
