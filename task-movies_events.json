@@ -1,0 +1,20 @@
+{
+  "onset": {
+    "Description": "Onset of the movie segment relative to the first scanner trigger pulse.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the movie segment.",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Name of the movie segment."
+  },
+  "movie_index": {
+    "Description": "Movie presentation order."
+  },
+  "n_frames": {
+    "Description": "Number of video frames presented during the movie segment.",
+    "Units": "frames"
+  }
+}
