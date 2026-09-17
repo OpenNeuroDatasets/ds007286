@@ -12,6 +12,8 @@ The diagnosis of each participant is listed under phenotype-> diagnosis_binary_t
 
 The dataset also includes quality metrics derived using MRIQC for each participant's T1W, T2W, and fMRI images. These metrics are stored under derivatives->mriqc. 
 
+The code used to display the stimuli during the task fMRI runs is included under derivatives -> task_code.zip. The timestamps for the movie time frames are included under derivatives -> movie_frame_timestamps.
+
 Participants: The dataset was collected at Yale School of Medicine, Magnetic Resonance Research Center, New Haven, Connecticut, USA between February 2018 and May 2025.  
 
 Consent: Written informed consent for participation and data sharing in accordance with a protocol approved by the Yale Institutional Review Board (HIC #2000020891) was obtained from all participants. 
