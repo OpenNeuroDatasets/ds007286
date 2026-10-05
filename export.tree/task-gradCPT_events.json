@@ -1,0 +1,84 @@
+{
+  "onset": {
+    "Description": "Onset of the event relative to the first scanner trigger pulse.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the event.",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "Type of scene presented during the trial - what the participant was looking at when this event began.",
+    "Levels": {
+      "city": "City scene. Frequent stimulus (~90% trials) - participant should press the response button.",
+      "mountain": "Mountain scene. Infrequent stimulus (~10% trials) - participant should withhold the response button."
+    }
+  },
+  "scene_num": {
+    "Description": "Numeric identifier of the scene presented during the trial."
+  },
+  "scored_scene": {
+    "Description": "Scene category used to determine the correct response for the trial. It reflects the scene type of the following trial (and can differ from the trial_type of the row).",
+    "Levels": {
+      "city": "City scene; participant should respond.",
+      "mountain": "Mountain scene; participant should withhold responding.", 
+      "unknown(0)": "No following trial exists." 
+    }
+  },
+  "outcome": {
+    "Description": "Outcome of the trial based on the presented scene and the participant's response.",
+    "Levels": {
+      "hit": "A response was made to a city scene.",
+      "correct_rejection": "No response was made to a mountain scene.",
+      "commission_error": "A response was made to a mountain scene.",
+      "omission_error": "No response was made to a city scene.", 
+      "undefined": "No following trial exists - outcome could not be classified."
+    }
+  },
+  "response_time": {
+    "Description": "Reaction time from scene onset to the participant's scored response. n/a when no scored response was recorded.",
+    "Units": "s"
+  },
+  "pct_morph_at_response": {
+    "Description": "Percentage of image morphing completed at the time of the participant's scored response. n/a if no response was attributed to this trial.",
+    "Units": "%"
+  },
+  "attribution": {
+    "Description": "Indicates how the scored response was attributed to the trial.",
+    "Levels": {
+      "own_trial": "The response was attributed to the same trial in which it occurred.",
+      "reattributed_from_following_trial": "The response was attributed to the current trial based on a response occurring during the following trial.",
+      "n/a": "No response was attributed to this trial."
+    }
+  },
+  "trial_num": {
+    "Description": "Sequential trial number within the GradCPT task."
+  },
+  "block_num": {
+    "Description": "Block number within the GradCPT task."
+  },
+  "raw_press_1_time": {
+    "Description": "Time of the participant's first recorded button press relative to the beginning of the trial. n/a if no response was recorded in this slot.",
+    "Units": "s"
+  },
+  "raw_press_1_pct_morph": {
+    "Description": "Percentage of image morphing completed at the time of the participant's first recorded button press. n/a if no response was recorded in this slot.",
+    "Units": "%"
+  },
+  "raw_press_2_time": {
+    "Description": "Time of the participant's second recorded button press relative to the beginning of the trial. n/a if no response was recorded in this slot.",
+    "Units": "s"
+  },
+  "raw_press_2_pct_morph": {
+    "Description": "Percentage of image morphing completed at the time of the participant's second recorded button press. n/a if no response was recorded in this slot.",
+    "Units": "%"
+  },
+  "raw_press_3_time": {
+    "Description": "Time of the participant's third recorded button press relative to the beginning of the trial. n/a if no response was recorded in this slot.",
+    "Units": "s"
+  },
+  "raw_press_3_pct_morph": {
+    "Description": "Percentage of image morphing completed at the time of the participant's third recorded button press. n/a if no response was recorded in this slot.",
+    "Units": "%"
+  }
+}
